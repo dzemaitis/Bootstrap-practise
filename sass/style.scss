@@ -1,0 +1,40 @@
+
+*{
+	font-family: 'Raleway', sans-serif;
+}
+.row, .navbar{
+	padding: 2% 10%;
+}
+@media screen and (max-width: 600px){
+	h2 img, .lets-be-creative p img{
+		display: none;
+	}
+	.row, .navbar{
+		padding-right: 0.5%;
+		padding-left: 0.5%;
+	}
+}
+.jumbotron{
+	background:none;
+}
+.text-success, .fas{ 
+	color: rgb(0,169,157) !important;
+}
+.bg-success, .btn-success, .badge-success, .bg-success1{
+	background-color: rgb(0,169,157) !important;
+}
+.fa-quote-left, .fa-quote-right, .fa-shopping-cart{
+	color: #f8f9fa !important;
+}
+.split-icon{ /*ikonos, kurios yra tarp dvieju div*/
+	display: block;
+	position: absolute;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+}
+footer{
+	.row:nth-child(2){
+		background-image: url("../img/map.jpg");
+		background-size: cover;
+	}
+}
